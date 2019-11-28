@@ -20,10 +20,7 @@ public class HomeActivity extends AppCompatActivity {
         startActivity(intent);
     }
 
-    public void createHost(View view){
-        Intent intent =new Intent(this,CreateHost.class);
-        startActivity(intent);
-    }
+
 
     public void checkout(View view) {
         Intent intent =new Intent(this,Checkout.class);

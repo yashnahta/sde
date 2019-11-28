@@ -7,6 +7,26 @@
     tools:context=".Checkout">
 
     <EditText
+        android:id="@+id/vname2"
+        android:layout_width="279dp"
+        android:layout_height="45dp"
+        android:layout_above="@+id/button3"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginStart="49dp"
+        android:layout_marginBottom="88dp"
+        android:background="@drawable/edittext_bg"
+        android:ems="10"
+        android:gravity="fill"
+        android:hint="Visitor's Name"
+        android:inputType="textPersonName"
+        android:padding="10dp"
+        app:layout_constraintBottom_toTopOf="@+id/button3"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <EditText
         android:id="@+id/vphone2"
         android:layout_width="279dp"
         android:layout_height="45dp"
@@ -15,7 +35,8 @@
         android:layout_alignParentLeft="true"
         android:layout_alignParentEnd="true"
         android:layout_alignParentRight="true"
-        android:layout_marginBottom="72dp"
+        android:layout_marginEnd="83dp"
+        android:layout_marginBottom="196dp"
         android:background="@drawable/edittext_bg"
         android:ems="10"
         android:gravity="fill"
@@ -23,7 +44,7 @@
         android:inputType="textPersonName"
         android:padding="10dp"
         app:layout_constraintBottom_toTopOf="@+id/button3"
-        tools:layout_editor_absoluteX="49dp" />
+        app:layout_constraintEnd_toEndOf="parent" />
 
     <Button
         android:id="@+id/button3"
@@ -34,10 +55,11 @@
         android:layout_alignParentEnd="true"
         android:layout_alignParentRight="true"
         android:layout_alignParentBottom="true"
+        android:layout_marginStart="108dp"
         android:layout_marginBottom="192dp"
         android:background="#2196F3"
         android:onClick="goCheckOut"
         android:text="Check-out"
         app:layout_constraintBottom_toBottomOf="parent"
-        tools:layout_editor_absoluteX="108dp" />
+        app:layout_constraintStart_toStartOf="parent" />
 </androidx.constraintlayout.widget.ConstraintLayout>

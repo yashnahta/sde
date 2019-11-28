@@ -14,9 +14,9 @@
         <activity android:name=".Checkout"></activity>
         <activity android:name=".CreateHost" />
         <activity android:name=".Checkin" />
-        <activity android:name=".SignUp" />
-        <activity android:name=".HomeActivity" />
-        <activity android:name=".MainActivity">
+
+
+        <activity android:name=".HomeActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
